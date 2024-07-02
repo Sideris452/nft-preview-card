@@ -87,6 +87,69 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   html {
+    font-size: 1em;
+  }
+  
+  
+  body {
+    display: flex;
+    justify-content: center;
+    background-color:hsl(217, 54%, 11%);
+    margin:10px;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 356px;
+    border: 0;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  figure {
+    margin:0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .nft-image {
+    content: url("../img/image-equilibrium.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+h1 {
+  font-family: 'outfit';
+  font-size: 18px;
+  color: white;
+}
+
+.product-stats {
+  display: flex;
+  flex-direction: row; 
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
